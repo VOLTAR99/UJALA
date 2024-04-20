@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDmgUYDal57podxXzHkXpy01nivT5-ojnM',
-    appId: '1:415792305127:android:e44d434dec10fb8ac22342',
-    messagingSenderId: '415792305127',
-    projectId: 'iot-hackathon-83df3',
-    storageBucket: 'iot-hackathon-83df3.appspot.com',
+    apiKey: 'USE_YOUR_API_KEY',
+    appId: 'API_ID',
+    messagingSenderId: 'SENDER_ID',
+    projectId: 'PROJECT_ID',
+    storageBucket: 'STORAGE_BUCKET',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC_6QqaZH8pqCjv0DLIXtxHsma11k41c1Q',
-    appId: '1:415792305127:ios:f783f44fc50a8dc3c22342',
-    messagingSenderId: '415792305127',
-    projectId: 'iot-hackathon-83df3',
-    storageBucket: 'iot-hackathon-83df3.appspot.com',
-    iosBundleId: 'com.example.iotSmartStreetLightApp',
+    apiKey: 'USE_YOUR_API_KEY',
+    appId: 'API_ID',
+    messagingSenderId: 'SENDER_ID',
+    projectId: 'PROJECT_ID',
+    storageBucket: 'STORAGE_BUCKET',
+    iosBundleId: 'IOS_BUNDEL',
   );
 }
