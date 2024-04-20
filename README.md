@@ -42,3 +42,7 @@
   Real-Time Complaint Reporting and Acknowledgement (future upgrade): Report issues like malfunctioning lights or outages directly through the app, with automatic service ticket generation and real-time updates on acknowledgement and resolution time.
 
   Dynamic Light Control (Per Lamp) (future upgrade): (This might require additional hardware upgrades) Potentially control the light intensity of each street light individually through the app for specific situations or user preferences in designated areas.
+
+# After pulling the repo in your compiler
+  --Update the **Firebase_option** in the lib folder to update the firebase API_key and all according to your firebase acc.
+  --Change the same for ios: Go to this location **ios/Runner/GoogleService-Info.plist** and update the API keys and all.
